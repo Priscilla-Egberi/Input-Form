@@ -36,7 +36,7 @@ export default function Input(){
             <label for="inputEmail" className="label mb-3"> Email </label>
             <span>
                 <input id="inputEmail" type="text" className="input" />
-                <p style={{fontSize:"10px"}}>example@example.com</p>
+                <p style={{fontSize:"10px"}} className="email">example@example.com</p>
             </span>
         </div>
         </>

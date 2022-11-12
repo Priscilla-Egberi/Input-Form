@@ -117,7 +117,8 @@ input[type="text"] {
     }
 
     .input {
-        width: 150px
+        width: 250px;
+        margin-left:20px;
     }
 
     .label {
@@ -126,10 +127,14 @@ input[type="text"] {
 
     .phoneAreaInput {
         width: auto;
+        margin-left:20px;
     }
 
     .phoneInput {
         width: auto;
         margin-left: 0;
+    }
+    .email{
+        margin-left:20px;
     }
 }
