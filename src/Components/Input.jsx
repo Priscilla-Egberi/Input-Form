@@ -23,12 +23,12 @@ export default function Input(){
             <label for="inputPhone" className="mb-3 mb-md-1 label"> Phone Number </label>
             
             <span className="d-inline-flex flex-column phoneAreaInput">
-                <input id="inputPhone" type="text" />
+                <input id="inputPhone" type="text" className="inputForPhone" />
                 <p style={{fontSize:"10px"}} className="mb-0">Area Code</p>
             </span>
             <span className="d-none d-md-inline mx-2"> - </span>
             <span className="d-inline-flex flex-column phoneInput">
-                <input id="inputPhone" type="text"  />
+                <input id="inputPhone" type="text" className="inputForPhone" />
                 <p style={{fontSize:"10px"}} className="mb-0">Phone Number</p>
             </span>
         </div>

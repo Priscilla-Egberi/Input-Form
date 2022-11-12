@@ -67,6 +67,9 @@ label {
 .input:focus{
     outline: 2px solid #FD8F29;
 }
+.inputForPhone:focus{
+    outline: 2px solid #FD8F29;
+}
 .phoneAreaInput {
     width: 27%;
 }
