@@ -65,7 +65,7 @@ label {
 }
 
 .input:focus{
-    border: 2px solid #FD8F29;
+    outline: 2px solid #FD8F29;
 }
 .phoneAreaInput {
     width: 27%;
