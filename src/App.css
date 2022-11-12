@@ -1,0 +1,135 @@
+.form-container {
+    background-image: url(https://www.jotform.com/images/noises/noise.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    color: #555;
+    font-size: 13px;
+    line-height: 18px;
+    text-shadow: 0 1px 0 #eee;
+    max-width: 700px;
+    margin-top: 200px;
+}
+
+.form-header-group {
+    background: #333333;
+    background: -moz-linear-gradient(top, #333333 0%, #4A4A4A 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #4A4A4A));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#4A4A4A', GradientType=0);
+    color: #FD8F29 !important;
+    text-shadow: 0 2px 2px #000000;
+    border-bottom: 1px solid #F8F8F8;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    margin-bottom: 10px;
+    padding: 20px 16px;
+    line-height: 36px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form {
+    padding: 40px 20px 60px 20px;
+}
+
+.inputTableContainer {
+    width: 100%;
+    overflow-y: auto;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.form-radio {
+    vertical-align: top;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding: 0px;
+
+}
+
+label {
+    font-family: Tahoma, sans-serif;
+    color: #333
+}
+
+.label {
+    width: 100%
+}
+
+.input {
+    width: 100%
+}
+
+.phoneAreaInput {
+    width: 27%;
+}
+
+.phoneInput {
+    width: 68%;
+    margin-left: 5%;
+}
+
+input[type="text"] {
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%) inset, 0 1px 0 rgb(255 255 255 / 75%);
+    border: 1px solid #999;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.form-scale-table {
+    font-size: 12px;
+}
+
+.form-scale-table th {
+    border-bottom: 1px solid #90919B;
+    color: #6C6D7D;
+    padding: 9px 6px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.form-scale-table td {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.testing:focus,
+.testing:active {
+    background-color: red;
+}
+
+@media(min-width:650px) {
+    .form-header-group {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .d-md-flex {
+        display: flex !important;
+    }
+
+    .d-md-inline {
+        display: inline !important;
+    }
+
+    .input {
+        width: 150px
+    }
+
+    .label {
+        width: 150px;
+    }
+
+    .phoneAreaInput {
+        width: auto;
+    }
+
+    .phoneInput {
+        width: auto;
+        margin-left: 0;
+    }
+}
