@@ -12,11 +12,15 @@ export default function Input(){
             <InputTable />
         </div>
         <div className="d-md-flex align-items-start pt-2 mb-4">
-            <label for="inputSeriousness" className="mb-3 label"> How much weight do you want to LOSE? </label>
+            <label for="inputSeriousness" className="mb-3 label"> What other programs/products have you tried in the past? </label>
             <input id="inputSeriousness" type="text" className="input" />
         </div>
         <div className="d-md-flex align-items-start pt-2 mb-4">
-            <label for="inputWeightLoss" className="mb-3 label"> How much weight do you want to LOSE? </label>
+            <label for="inputWeightLoss" className="mb-3 label"> Why do you feel that these other program(s) did not work? </label>
+            <input id="inputWeightLoss" type="text" className="input" />
+        </div>
+        <div className="d-md-flex align-items-start pt-2 mb-4">
+            <label for="inputWeightLoss" className="mb-3 label">If we put a plan that is going to help you achieve your goals, how soon would you want to start?</label>
             <input id="inputWeightLoss" type="text" className="input" />
         </div>
         <div className="d-md-flex align-items-start pt-2 mb-4">
