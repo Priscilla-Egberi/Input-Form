@@ -15,7 +15,7 @@ export default function Input(){
             <label for="inputSeriousness" className="mb-3 label"> How much weight do you want to LOSE? </label>
             <input id="inputSeriousness" type="text" className="input" />
         </div>
-        <div className="d-md-flex align-items-start pt-2 mb-4 testing">
+        <div className="d-md-flex align-items-start pt-2 mb-4">
             <label for="inputWeightLoss" className="mb-3 label"> How much weight do you want to LOSE? </label>
             <input id="inputWeightLoss" type="text" className="input" />
         </div>
