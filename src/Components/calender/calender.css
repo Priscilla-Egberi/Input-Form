@@ -1,0 +1,8 @@
+@media(min-width:650px) {
+    .ms-md-5{
+        margin-left:2rem !important;
+    }
+    .flex-md-row{
+        flex-direction: row !important;
+    }
+}
