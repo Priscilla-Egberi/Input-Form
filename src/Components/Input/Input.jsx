@@ -39,7 +39,7 @@ export default function Input(){
         <div className="d-md-flex align-items-start pt-2 mb-4">
             <label for="inputEmail" className="label mb-3"> Email </label>
             <span>
-                <input id="inputEmail" type="text" className="input" />
+                <input id="inputEmail" type="email" className="input" />
                 <p style={{fontSize:"10px"}} className="email">example@example.com</p>
             </span>
         </div>

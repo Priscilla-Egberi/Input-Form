@@ -1,7 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-// import Calendar from 'react-calendar';
-// import './App.css';
 
 const time = ['09:00 AM', '10:00 AM', '11:00 AM', '02:00 PM', '03:00 PM', '04:00 PM']
 
@@ -18,13 +16,6 @@ function Times(props) {
   return (
 
     <div className="times">
-      {/* {time.map(times => {
-    return (
-    <div>
-      <button className="btn btn-outline-primary mb-3" onClick={(e)=> displayInfo(e)}> {times} </button>
-    </div>
-        )
-     })} */}
       {
         <>
           <div>
