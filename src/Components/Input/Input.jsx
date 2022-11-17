@@ -1,8 +1,8 @@
-import InputTable from "./SubComponent/InputTable";
+import InputTable from "./InputTable";
 
 export default function Input(){
     return(
-        <>
+        <section className="form">
         <div className="d-md-flex align-items-start pt-2 mb-4">
             <label for="inputWeight" className="mb-3 label"> How much weight do you want to LOSE? </label>
             <input id="inputWeight" type="text" className="input" />
@@ -43,6 +43,6 @@ export default function Input(){
                 <p style={{fontSize:"10px"}} className="email">example@example.com</p>
             </span>
         </div>
-        </>
+        </section>
     )
 }
